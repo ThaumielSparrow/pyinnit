@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pythinnit"
+version = "0.1.0"
+description = "It's Python, innit?"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "ThaumielSparrow" }
+]
+keywords = [
+    "python",
+    "british",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ThaumielSparrow/pythinnit"
+Repository = "https://github.com/ThaumielSparrow/pythinnit"
+Issues = "https://github.com/ThaumielSparrow/pythinnit/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pythinnit"]

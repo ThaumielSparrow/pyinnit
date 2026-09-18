@@ -1,0 +1,1 @@
+This is free software released into the public domain. Anyone is free to use it for any purpose at their own detriment.
