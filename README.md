@@ -10,5 +10,5 @@ class Wanker:
 ## Installation
 
 ```
-pip install pyinnit
+pip install pythinnit
 ```

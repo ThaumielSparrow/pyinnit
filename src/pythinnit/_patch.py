@@ -19,8 +19,8 @@ def _british_build_class(func, name, *bases, **kwargs):
 
 
 def install():
-    if getattr(builtins.__build_class__, "__pyinnit__", False):
+    if getattr(builtins.__build_class__, "__pythinnit__", False):
         return
 
-    _british_build_class.__pyinnit__ = True
+    _british_build_class.__pythinnit__ = True
     builtins.__build_class__ = _british_build_class
